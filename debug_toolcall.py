@@ -3,7 +3,7 @@ import json
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-37b98fd30e1d44669bb1046aac45dc69",
+    api_key="",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
 )
 
@@ -139,3 +139,4 @@ try:
             print(f"    arguments (parsed): {json.dumps(parsed, ensure_ascii=False, indent=4)}")
 except Exception as e:
     print(f"  错误: {e}")
+

@@ -7,7 +7,7 @@ st.title("LLM App with Memory 🧠")
 st.caption("LLM App with personalized memory layer that remembers ever user's choice and interests")
 
 # 阿里云 DashScope API Key
-dashscope_api_key = st.text_input("Enter Aliyun DashScope API Key", value="sk-37b98fd30e1d44669bb1046aac45dc69", type="password")
+dashscope_api_key = st.text_input("Enter Aliyun DashScope API Key", value="", type="password")
 
 @st.cache_resource
 def init_client(api_key):

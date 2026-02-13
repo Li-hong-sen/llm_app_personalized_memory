@@ -4,7 +4,7 @@ import sys
 
 NEO4J_URI = "neo4j+s://7ebeea71.databases.neo4j.io"
 NEO4J_USERNAME = "neo4j"
-NEO4J_PASSWORD = "jkHfTyOWwicagj1Dc18Vw_-pmJdZ2IdMKUXYFKYYuts"
+NEO4J_PASSWORD = ""
 NEO4J_DATABASE = "neo4j"
 
 print(f"Python 版本: {sys.version}")
@@ -39,3 +39,4 @@ except Exception as e:
     import traceback
     print("\n完整错误栈:")
     traceback.print_exc()
+

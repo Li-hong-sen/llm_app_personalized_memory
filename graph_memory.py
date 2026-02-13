@@ -95,7 +95,7 @@ def init_memory(api_key):
         "config": {
             "url": "neo4j+s://7ebeea71.databases.neo4j.io",
             "username": "neo4j",
-            "password": "jkHfTyOWwicagj1Dc18Vw_-pmJdZ2IdMKUXYFKYYuts",
+            "password": "",
             "database": "neo4j",
         }
     },
@@ -229,3 +229,4 @@ if dashscope_api_key:
             if not has_data:
 
                 st.info("No memory found for this user ID.")
+
